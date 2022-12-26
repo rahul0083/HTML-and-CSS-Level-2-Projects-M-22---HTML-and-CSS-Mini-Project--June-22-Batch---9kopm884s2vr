@@ -1,0 +1,97 @@
+.main{
+    background-image:url("images/pattern-background-desktop.svg");
+    display: flex;
+    justify-content: center;   
+}
+.sub{
+    text-align: center;
+    margin: 50px 500px;
+    line-height: 1.5;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#image{
+border-radius: 20px;
+width: 100%;
+border-bottom-right-radius: 0%;
+border-bottom-left-radius: 0%;
+
+}
+#annualplan{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 30px;
+    background-color: rgb(255, 241, 241);
+    border-radius: 8px;
+    height: 70px;
+    width: 80%;
+}
+#logo{
+   padding: 4%;
+}
+#cancel{
+    background: white;
+    border: none;
+    color: rgba(0, 0, 0, 0.596);
+    font-weight: 400;
+}
+#btn{
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+    padding: 10px;
+}
+#about{
+   font-size: 12px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgba(0, 0, 0, 0.37);
+   font-weight: 600;
+}
+#plan{
+    font-size: 12px;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-top: 12px;
+    white-space: nowrap;
+   
+}
+#year{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.685);
+    margin-bottom: 90px;  
+}
+#change{
+    margin: 26px;
+    margin-left: 60px;
+    color: rgba(0, 0, 255, 0.726);
+    text-decoration: underline;
+
+ 
+}
+#cancel:hover{
+    color: black;
+    cursor: pointer;
+}
+#btn:hover{
+    background: rgb(44, 174, 218);
+    cursor: pointer;
+}
+#change:hover{
+    color: rgb(122, 192, 216);
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+@media screen and (max-width:600px),screen and ("orientation:landscape"){
+    body{
+        background-image:url("images/pattern-background-mobile.svg");
+        margin: 80px;
+    }
+}
