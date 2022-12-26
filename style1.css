@@ -1,5 +1,5 @@
 .main{
-    background-image:url("images/pattern-background-desktop.svg");
+    background-image:url("pattern-background-desktop.svg");
     display: flex;
     justify-content: center;   
 }
@@ -91,7 +91,7 @@ border-bottom-left-radius: 0%;
 }
 @media screen and (max-width:600px),screen and ("orientation:landscape"){
     body{
-        background-image:url("images/pattern-background-mobile.svg");
+        background-image:url("pattern-background-mobile.svg");
         margin: 80px;
     }
 }
